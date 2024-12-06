@@ -1,0 +1,10 @@
+.symbol-ratings-button {
+  color: white;
+  background-color: var(--dark);
+  border: 1px solid var(--extraDark);
+  border-radius: 0;
+}
+
+.symbol-ratings-button:hover {
+  background-color: var(--extraDark);
+}

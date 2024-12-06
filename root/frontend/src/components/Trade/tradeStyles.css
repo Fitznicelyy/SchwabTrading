@@ -1,0 +1,131 @@
+/* trade input */
+.trade-input-container {
+  position: relative;
+  height: 40px;
+  width: 160px;
+  padding: 10px;
+}
+
+.trade-input-container select {
+  width: 160px;
+  height: 40px;
+  border-radius: 4px;
+  position: absolute;
+  border: 1px solid var(--dark);
+}
+
+.trade-input-container input {
+  border-radius: 4px;
+  position: absolute;
+  padding: 0px 0px 0px 4px;
+  width: 154px;
+  height: 38px;
+  border: 1px solid var(--dark);
+}
+
+.trade-input-label {
+  position: absolute;
+  font-size: .6em;
+  top: 11px;
+  left: 15px;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+
+/* trade button */
+.trade-button-container {
+  border-radius: 4px;
+  margin: 10px;
+  border: 1px solid var(--dark);
+}
+
+.trade-button-selected {
+  height: 38px;
+  width: 80px;
+  border-radius: 4px;
+  border-width: 1px;
+  color: white;
+  background-color: var(--main);
+  border: 1px solid var(--dark);
+}
+
+.trade-button-unselected {
+  height: 38px;
+  width: 80px;
+  border: none;
+  background: initial;
+  color: var(--main);
+}
+
+.trade-button-selected:disabled
+.trade-button-selected[disabled] {
+  opacity: 0.5;
+  cursor: initial
+}
+
+.trade-button-unselected:disabled
+.trade-button-unselected[disabled] {
+  opacity: 0.5;
+  cursor: initial
+}
+
+.strike-ITM {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: var(--extraLight);
+}
+
+.strike-not-ITM {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.strike-ITM:hover {
+  color: white;
+  background-color: var(--main);
+}
+
+.strike-not-ITM:hover {
+  color: white;
+  background-color: var(--main);
+}
+
+.expiration-open {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid var(--dark);
+  cursor: pointer;
+  padding: 2px 8px;
+  background-color: var(--extraLight);
+}
+
+.expiration-closed {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid var(--dark);
+  cursor: pointer;
+  padding: 2px 8px;
+}
+
+.expiration-open:hover {
+  color: white;
+  background-color: var(--main);
+}
+
+.expiration-closed:hover {
+  color: white;
+  background-color: var(--main);
+}
+
+.strike-value {
+  display: flex;
+  min-width: 40px;
+  justify-content: end;
+}
+
+.strike-value:hover {
+  color: var(--extraDark);
+  cursor: pointer;
+}

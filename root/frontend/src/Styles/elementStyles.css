@@ -1,0 +1,28 @@
+.standard-button {
+  min-width: 160px;
+  height: 40px;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--dark);
+  border: 1px solid var(--extraDark);
+}
+
+.standard-button:hover {
+  background-color: var(--extraDark);
+}
+
+.header {
+  display: flex;
+  height: 40px;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: var(--main);
+  border: 1px solid var(--extraDark);
+  border-radius: 8px;
+}
+
+.key-value-array-button:hover {
+  background-color: lightcoral;
+}

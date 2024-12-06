@@ -1,0 +1,18 @@
+body {
+  --extraLight: #c7e3ff;
+  --light: #8ec7ff;
+  --main: #1e90ff;
+  --dark: #006cd6;
+  --extraDark: #00488e;
+}
+
+button {
+  color: white;
+  background-color: var(--main);
+  border: 1px solid var(--dark);
+  border-radius: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+}

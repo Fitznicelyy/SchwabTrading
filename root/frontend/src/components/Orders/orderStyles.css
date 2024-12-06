@@ -1,0 +1,70 @@
+/* trade input */
+.orders-input-container {
+  position: relative;
+  height: 40px;
+  width: 160px;
+  padding: 10px;
+}
+
+.orders-input-container select {
+  width: 160px;
+  height: 40px;
+  border-radius: 4px;
+  position: absolute;
+  border: 1px solid var(--dark);
+}
+
+.orders-input-container input {
+  border-radius: 4px;
+  position: absolute;
+  padding: 0px 0px 0px 4px;
+  width: 154px;
+  height: 38px;
+  border: 1px solid var(--dark);
+}
+
+.orders-input-label {
+  position: absolute;
+  font-size: .6em;
+  top: 11px;
+  left: 15px;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+
+/* trade button */
+.orders-button-container {
+  border-radius: 4px;
+  margin: 10px;
+  border: 1px solid var(--dark);
+}
+
+.orders-button-selected {
+  height: 38px;
+  width: 80px;
+  border-radius: 4px;
+  border-width: 1px;
+  color: white;
+  background-color: var(--main);
+  border: 1px solid var(--dark);
+}
+
+.orders-button-unselected {
+  height: 38px;
+  width: 80px;
+  border: none;
+  background: initial;
+  color: var(--main);
+}
+
+.orders-button-selected:disabled
+.orders-button-selected[disabled] {
+  opacity: 0.5;
+  cursor: 'initial'
+}
+
+.orders-button-unselected:disabled
+.orders-button-unselected[disabled] {
+  opacity: 0.5;
+  cursor: 'initial'
+}

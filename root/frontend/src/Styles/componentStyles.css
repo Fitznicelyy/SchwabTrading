@@ -1,0 +1,109 @@
+/* input and select */
+input {
+  width: 494px;
+  border-width: 1px;
+}
+select {
+  width: 500px;
+  border-width: 1px;
+}
+input:invalid, select:invalid {
+  border-color: darkred;
+  background-color: lightcoral;
+}
+
+/* table */
+table {
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid var(--dark);
+  padding: 2px;
+}
+th {
+  background-color: var(--main);
+}
+th button {
+  color: white;
+  background: none;
+}
+tr:nth-child(even) {
+  background-color: var(--light);
+}
+
+/* button group */
+.btn-group button {
+  background-color: var(--main);
+  border: 1px solid var(--dark);
+  color: white;
+  padding: 10px 24px;
+  float: left;
+  border-radius: 0px;
+}
+.btn-group button:hover {
+  background-color: var(--dark);
+}
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+.btn-group button:first-child {
+  border-radius: 4px 0px 0px 4px;
+}
+.btn-group button:last-child {
+  border-radius: 0px 4px 4px 0px;
+}
+
+/* tabs */
+.tab {
+  display: flex;
+  width: min-content;
+  height: min-content;
+  overflow: hidden;
+  background-color: var(--main);
+  border: 1px solid var(--dark);
+  justify-content: space-evenly;
+  border-radius: 4px;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  padding: 10px 24px;
+  transition: 0.3s;
+  color: white;
+}
+.tab button:hover {
+  background-color: var(--extraDark);
+}
+.tab button.active {
+  background-color: var(--dark);
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: var(--extraDark);
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  flex-direction: column;
+}
+.dropdown-option {
+  background-color: white;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid var(--extraDark);
+}
+.dropdown-option:hover {
+  background-color: var(--extraLight);
+}
+.show {display:flex;}

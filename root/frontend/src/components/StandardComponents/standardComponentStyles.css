@@ -1,0 +1,8 @@
+.object-value-label {
+  display: flex;
+  width: 200px;
+}
+
+.object-value-label:hover {
+  background-color: var(--extraLight);
+}

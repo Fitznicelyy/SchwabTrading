@@ -1,0 +1,51 @@
+/* trade input */
+.trade-input-container {
+  position: relative;
+  height: 40px;
+  width: 160px;
+  padding: 10px;
+}
+
+.trade-input-container select {
+  width: 160px;
+  height: 40px;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.trade-input-container input {
+  border-radius: 4px;
+  position: absolute;
+  padding: 0px 0px 0px 4px;
+  width: 154px;
+  height: 38px;
+}
+
+.trade-input-label {
+  position: absolute;
+  font-size: .6em;
+  top: 11px;
+  left: 15px;
+  text-transform: uppercase;
+}
+
+/* trade button */
+.trade-button-container {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.trade-button-selected {
+  height: 38px;
+  width: 80px;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.trade-button-unselected {
+  height: 38px;
+  width: 80px;
+  border: none;
+  background: initial;
+}
